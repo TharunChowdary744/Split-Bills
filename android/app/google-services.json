@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305041274707",
+    "project_id": "split-bills-e7bc1",
+    "storage_bucket": "split-bills-e7bc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305041274707:android:41aba5b14b93de8e7b13a6",
+        "android_client_info": {
+          "package_name": "com.tharunchowdary.bill_split"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305041274707-301kv7p7s8erourkqbscg1guub5m669g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEoJUwoMilgQzJvjHrP8mQaKL3U5zP9o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305041274707-301kv7p7s8erourkqbscg1guub5m669g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
