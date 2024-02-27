@@ -57,36 +57,36 @@ class SignUpPage extends StatelessWidget {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: CustomTextFormField(
-                                  fieldController: controller.firstName,
-                                  hintText: TcTexts.firstName,
-                                  prefixImage: TcImages.textFieldName,
-                                  keyboardType: TextInputType.text,
-                                  currentNode: _firstNameNode,
-                                  textInputAction: TextInputAction.next,
-                                  validator: (value) => TcValidator.validateName(
-                                      value!, 'First Name'),
-                                  maxLines: 1),
-                            ),
-                            SizedBox(width: TcSizes.spaceBtwItems-10,),
-                            Expanded(
-                              child: CustomTextFormField(
-                                  fieldController: controller.lastName,
-                                  hintText: TcTexts.lastName,
-                                  prefixImage: TcImages.textFieldName,
-                                  keyboardType: TextInputType.text,
-                                  currentNode: _lastNameNode,
-                                  textInputAction: TextInputAction.next,
-                                  validator: (value) =>
-                                      TcValidator.validateName(value!, 'Last Name'),
-                                  maxLines: 1),
-                            )
-                          ],
-                        ),
-                        SizedBox(height: TcSizes.spaceBtwItems-3),
+                        // Row(
+                        //   children: [
+                        //     Expanded(
+                        //       child: CustomTextFormField(
+                        //           fieldController: controller.firstName,
+                        //           hintText: TcTexts.firstName,
+                        //           prefixImage: TcImages.textFieldName,
+                        //           keyboardType: TextInputType.text,
+                        //           currentNode: _firstNameNode,
+                        //           textInputAction: TextInputAction.next,
+                        //           validator: (value) => TcValidator.validateName(
+                        //               value!, 'First Name'),
+                        //           maxLines: 1),
+                        //     ),
+                        //     SizedBox(width: TcSizes.spaceBtwItems-10,),
+                        //     Expanded(
+                        //       child: CustomTextFormField(
+                        //           fieldController: controller.lastName,
+                        //           hintText: TcTexts.lastName,
+                        //           prefixImage: TcImages.textFieldName,
+                        //           keyboardType: TextInputType.text,
+                        //           currentNode: _lastNameNode,
+                        //           textInputAction: TextInputAction.next,
+                        //           validator: (value) =>
+                        //               TcValidator.validateName(value!, 'Last Name'),
+                        //           maxLines: 1),
+                        //     )
+                        //   ],
+                        // ),
+                        // SizedBox(height: TcSizes.spaceBtwItems-3),
                         CustomTextFormField(
                           currentNode: _emailNode,
                           nextNode: _passwordNode,

@@ -33,15 +33,15 @@ class TcUserProfileTile extends StatelessWidget {
               isNetworkImage: networkImage.isNotEmpty,
             );
           }),
-      title: Obx(
-        ()=> Text(
-          controller.user.value.fullName,
-          style: Theme.of(context)
-              .textTheme
-              .headlineSmall!
-              .apply(color: TcColors.white),
-        ),
-      ),
+      // title: Obx(
+      //   ()=> Text(
+      //     controller.user.value.fullName,
+      //     style: Theme.of(context)
+      //         .textTheme
+      //         .headlineSmall!
+      //         .apply(color: TcColors.white),
+      //   ),
+      // ),
       subtitle: Obx(
         ()=> Text(
           controller.user.value.email,

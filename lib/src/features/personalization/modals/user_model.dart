@@ -5,8 +5,8 @@ import '../../../utils/formatters/formatter.dart';
 class UserModel {
   final String id;
   // final String? displayName;
-  String firstName;
-  String lastName;
+  // String firstName;
+  // String lastName;
   // final String username;
   final String email;
   final String phoneNumber;
@@ -19,15 +19,15 @@ class UserModel {
     required this.profilePicture,
     this.uid,
     // this.displayName,
-    required this.firstName,
-    required this.lastName,
+    // required this.firstName,
+    // required this.lastName,
     // this.username,
     required this.email,
     required this.phoneNumber,
     this.password,
   });
 
-  String get fullName => '$firstName $lastName';
+  // String get fullName => '$firstName $lastName';
 
   String get formattedPhoneNo => TcFormatter.formatPhoneNumber(phoneNumber!);
 
@@ -44,12 +44,12 @@ class UserModel {
 
   }
 
-  static UserModel empty()=> UserModel(id: '', lastName: '', firstName: '',email: '',phoneNumber: '',profilePicture: '',password: '',);
+  static UserModel empty()=> UserModel(id: '',email: '',phoneNumber: '',profilePicture: '',password: '',);
   Map<String, dynamic>toJson() {
     return {
       // "DisplayName": displayName,
-      "FirstName": firstName,
-      "LastName": lastName,
+      // "FirstName": firstName,
+      // "LastName": lastName,
       "Email": email,
       "PhoneNumber": phoneNumber,
       // 'Username':username,
@@ -66,8 +66,8 @@ class UserModel {
       return UserModel(
         id: document.id,
         // displayName: data["DisplayName"]??'',
-        firstName: data["FirstName"]??'',
-        lastName: data["LastName"]??'',
+        // firstName: data["FirstName"]??'',
+        // lastName: data["LastName"]??'',
         email: data["Email"]??'',
         phoneNumber: data["Phone"]??'',
         password: data["Password"]??'',

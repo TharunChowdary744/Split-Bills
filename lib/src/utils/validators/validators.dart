@@ -24,7 +24,7 @@ class TcValidator {
   static String? validatePassword(String value) {
     if (value == null || value.isEmpty)
       return "Password is required";
-    else if (value.length < 8)
+    else if (value.length < 6)
       return "Password must be atleast 6 characters long.";
     else if (value.contains(" "))
       return "Password should not contain spaces";

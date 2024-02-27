@@ -65,7 +65,7 @@ class ProfileScreen extends StatelessWidget {
               SizedBox(
                 height: TcSizes.spaceBtwItems,
               ),
-              TcProfileMenu(onPressed: ()=>Get.to(()=>ChangeName()), title: 'Name', value: controller.user.value.fullName,),
+              // TcProfileMenu(onPressed: ()=>Get.to(()=>ChangeName()), title: 'Name', value: controller.user.value.fullName,),
               // TcProfileMenu(onPressed: () {  }, title: 'Username', value: controller.user.value.username,),
 
               SizedBox(

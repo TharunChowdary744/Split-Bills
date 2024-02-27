@@ -53,12 +53,12 @@ class DefaultFirebaseOptions {
   // );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDcANMFEPqfzpqjDfX3jHR746FGZGqCNh0',
-    appId: '1:247924081479:android:7c728e811bad8c5690c262',
-    messagingSenderId: '247924081479',
-    projectId: 'expense-tracker-9dd01',
-    databaseURL:'https://expense-tracker-9dd01-default-rtdb.firebaseio.com',
-    storageBucket: 'expense-tracker-9dd01.appspot.com',
+    apiKey: 'AIzaSyCEoJUwoMilgQzJvjHrP8mQaKL3U5zP9o0',
+    appId: '1:305041274707:android:41aba5b14b93de8e7b13a6',
+    messagingSenderId: '305041274707',
+    projectId: 'split-bills-e7bc1',
+    databaseURL:'https://split-bills-e7bc1-default-rtdb.firebaseio.com',
+    storageBucket: 'split-bills-e7bc1.appspot.com',
   );
 
   // static const FirebaseOptions ios = FirebaseOptions(

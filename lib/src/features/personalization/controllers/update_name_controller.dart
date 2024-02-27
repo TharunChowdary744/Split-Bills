@@ -27,8 +27,8 @@ class UpdateNameController extends GetxController {
   }
 
   Future<void> initializeNames() async {
-    firstName.text = userController.user.value.firstName;
-    lastName.text = userController.user.value.lastName;
+    // firstName.text = userController.user.value.firstName;
+    // lastName.text = userController.user.value.lastName;
     TcLoggerHelper.error("${firstName.text+lastName.text}");
   }
 
@@ -56,8 +56,8 @@ class UpdateNameController extends GetxController {
       };
       await userRepository.updateSingleField(name);
 
-      userController.user.value.firstName = firstName.text.trim();
-      userController.user.value.lastName = lastName.text.trim();
+      // userController.user.value.firstName = firstName.text.trim();
+      // userController.user.value.lastName = lastName.text.trim();
 
       TcFullScreenLoader.stopLoading();
 
